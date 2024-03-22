@@ -41,6 +41,7 @@ public class GameControl : MonoBehaviour
     //Extended Information
     public string alignment;
     public string tProficiencies;
+    public string sProficiencies;
     public int ability;
     public string size;
     public string lang;
@@ -50,6 +51,7 @@ public class GameControl : MonoBehaviour
     public int speed;
     public string[] spells;
     public string[] cantrips;
+    public string[] skills;
 
     //Make sure there's only one instance of GameObject
     void Awake() 

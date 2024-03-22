@@ -99,6 +99,7 @@ public class playerSaveFilesArray : MonoBehaviour
             CharAge = GameObject.FindObjectOfType<GameControl>().CharAge,
             alignment = GameObject.FindObjectOfType<GameControl>().alignment,
             tProficiencies = GameObject.FindObjectOfType<GameControl>().tProficiencies,
+            sProficiences = GameObject.FindObjectOfType<GameControl>().sProficiencies, // added the skill proficiencies - luz
             ability = GameObject.FindObjectOfType<GameControl>().ability,
             size = GameObject.FindObjectOfType<GameControl>().size,
             lang = GameObject.FindObjectOfType<GameControl>().lang,
@@ -108,6 +109,7 @@ public class playerSaveFilesArray : MonoBehaviour
             speed = GameObject.FindObjectOfType<GameControl>().speed,
             spells = GameObject.FindObjectOfType<GameControl>().spells,
             cantrips = GameObject.FindObjectOfType<GameControl>().cantrips,
+            skills = GameObject.FindAnyObjectByType<GameControl>().skills,
         };
 
         return playerReturnValue;

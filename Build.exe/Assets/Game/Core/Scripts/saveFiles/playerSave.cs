@@ -30,13 +30,15 @@ public class playerSave
 
     public string alignment;
     public string tProficiencies;
+    public string sProficiences; // skill proficiences for the mods - luz
     public int ability;
     public string size;
     public string lang;
-    public string skill;
+    public string skill; // what skill is this taking?? - luz 
     public string skillClass;
     public string skillBckgrnd;
     public int speed;
     public string[] spells;
     public string[] cantrips;
+    public string[] skills; // general skills that are needed for the total skill set - luz
 }
