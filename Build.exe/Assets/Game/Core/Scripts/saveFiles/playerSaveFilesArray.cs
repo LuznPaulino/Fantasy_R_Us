@@ -10,6 +10,9 @@ public class playerSaveFilesArray : MonoBehaviour
     //The pathway of the save text file
     string savePathway = "Game Saves/saveFile.txt";
 
+    public GameObject Slots; // enable UI
+    public GameObject defaultUI; // disable UI
+
     //This function saves the data from the game controller
     public void saveTheFile(int place)
     {
@@ -66,6 +69,10 @@ public class playerSaveFilesArray : MonoBehaviour
     //This function opens and retrieves the data from the file and apply it to the player
     public void openTheData(int place)
     {
+        // enabling the Character archive UI
+        defaultUI.SetActive(false);
+        Slots.SetActive(true);
+
         //Reads all the file data from the pathway
         string fileInfo = File.ReadAllText(savePathway);
         //Converts from json to the class array
@@ -115,7 +122,7 @@ public class playerSaveFilesArray : MonoBehaviour
         GameObject.FindObjectOfType<GameControl>().Pclass = input[place].Pclass;
         GameObject.FindObjectOfType<GameControl>().Psubrace = input[place].Psubrace;
         GameObject.FindObjectOfType<GameControl>().Pbckgrnd = input[place].Pbckgrnd;
-        GameObject.FindObjectOfType<GameControl>().Feats = input[place].Feats;
+        GameObject.FindObjectOfType<GameControl>().Feats = input[place].Feats; // no longer needed 
         GameObject.FindObjectOfType<GameControl>().Parmor = input[place].Parmor;
         GameObject.FindObjectOfType<GameControl>().Pequip = input[place].Pequip;
         GameObject.FindObjectOfType<GameControl>().flaws = input[place].flaws;

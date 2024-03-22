@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 8259185319088752874}
   - component: {fileID: 7436349667485431864}
   m_Layer: 5
-  m_Name: Book Template
+  m_Name: Book Template V1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
