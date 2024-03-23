@@ -39,18 +39,18 @@ EditorBuildSettings:
     path: Assets/Game/Core/Scenes/Main Scenes/Game.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Game/Core/Scenes/Main Scenes/Intro.unity
+    path: Assets/Game/Scenes/Main Scenes/Intro.unity
     guid: 0c6fba299636a394983455d4e10e5aae
   - enabled: 0
-    path: Assets/Game/Core/Scenes/Tab Scenes/Feats.unity
+    path: Assets/Game/Scenes/Tab Scenes/Feats.unity
     guid: 0b969d83254a16b4b8846a3276f3a10e
   - enabled: 0
-    path: Assets/Game/Core/Scenes/Tab Scenes/Extension Scenes/Race Extended.unity
+    path: Assets/Game/Scenes/Tab Scenes/Extension Scenes/Race Extended.unity
     guid: af24d3da07148fa4bab904a61ff8a76c
   - enabled: 0
-    path: Assets/Game/Core/Scenes/Tab Scenes/Extension Scenes/Class Extended.unity
+    path: Assets/Game/Scenes/Tab Scenes/Extension Scenes/Class Extended.unity
     guid: 35a145f7fe22514478b9e32a879bef9d
   - enabled: 0
-    path: Assets/Game/Core/Scenes/Tab Scenes/Extension Scenes/Background Extended.unity
+    path: Assets/Game/Scenes/Tab Scenes/Extension Scenes/Background Extended.unity
     guid: 6561e8b45f29f2c41a6fbf37f5e503f4
   m_configObjects: {}
