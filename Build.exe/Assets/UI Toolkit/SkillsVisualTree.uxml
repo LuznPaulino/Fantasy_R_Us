@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SkillsStyleSheet.uss?fileID=7433441132597879392&amp;guid=d6544b7cb6def2840a70cf95f6e992df&amp;type=3#SkillsStyleSheet" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="ScrollBG" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Game/Core/Materials/Assets/Sprites/scroll/pngs/tall.png?fileID=2800000&amp;guid=66ce72e0570b1b34cb3c5a0b26f28550&amp;type=3#tall&apos;); width: 971px; height: auto; opacity: 1; display: flex; right: auto; margin-right: 0; left: auto; align-self: center; justify-content: flex-start; align-items: center;">
+            <ui:Label tabindex="-1" text="Skills" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillsTab" class="header" style="-unity-font: url(&apos;project://database/Assets/Game/Core/Materials/Assets/Fonts/vinque%20rg.otf?fileID=12800000&amp;guid=caf998642bbb2ee489eba9387ba744b8&amp;type=3#vinque rg&apos;); -unity-font-style: normal; -unity-text-align: middle-center; -unity-font-definition: initial; color: rgb(0, 0, 0); width: 200px; height: 70px; justify-content: flex-start; align-items: auto; align-self: center;" />
+            <ui:ScrollView mode="Vertical" horizontal-scroller-visibility="Hidden" nested-interaction-kind="Default" vertical-scroller-visibility="Hidden" touch-scroll-type="Elastic" class="container">
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsLeft" style="flex-direction: row-reverse;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+                <ui:Toggle label="Acrobatics (Dex)" name="AcrobaticsToggle" class="SkillsRight" style="flex-direction: row;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
